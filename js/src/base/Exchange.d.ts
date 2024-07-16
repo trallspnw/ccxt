@@ -222,7 +222,7 @@ export default class Exchange {
         outputLen: number;
         blockLen: number;
         create(): import("../static_dependencies/noble-hashes/utils.js").Hash<import("../static_dependencies/noble-hashes/utils.js").Hash<any>>;
-    }, digest?: "binary" | "hex" | "base64") => any;
+    }, digest?: "base64" | "binary" | "hex") => any;
     arrayConcat: (a: any[], b: any[]) => any[];
     encode: (str: string) => Uint8Array;
     urlencode: (object: object) => string;
@@ -231,7 +231,7 @@ export default class Exchange {
         outputLen: number;
         blockLen: number;
         create(): import("../static_dependencies/noble-hashes/utils.js").Hash<import("../static_dependencies/noble-hashes/utils.js").Hash<any>>;
-    }, digest?: "binary" | "hex" | "base64") => any;
+    }, digest?: "base64" | "binary" | "hex") => any;
     numberToString: typeof functions.numberToString;
     parseTimeframe: (timeframe: string) => number;
     safeInteger2: (o: any, k1: IndexType, k2: IndexType, $default?: number) => number;
