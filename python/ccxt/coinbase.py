@@ -96,7 +96,6 @@ class coinbase(Exchange, ImplicitAPI):
                 'fetchIndexOHLCV': False,
                 'fetchIsolatedBorrowRate': False,
                 'fetchIsolatedBorrowRates': False,
-                'fetchL2OrderBook': False,
                 'fetchLedger': True,
                 'fetchLeverage': False,
                 'fetchLeverageTiers': False,
