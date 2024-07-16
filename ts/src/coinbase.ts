@@ -336,6 +336,7 @@ export default class coinbase extends Exchange {
                 '30m': 'THIRTY_MINUTE',
                 '1h': 'ONE_HOUR',
                 '2h': 'TWO_HOUR',
+                '4h': 'FOUR_HOUR',
                 '6h': 'SIX_HOUR',
                 '1d': 'ONE_DAY',
             },
