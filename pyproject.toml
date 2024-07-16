@@ -6,3 +6,9 @@ ignore = ["F722","F841","F821","E402","E501","E902","E713","E741","E714", "E275"
 exclude = [
 "static_dependencies"
 ]
+
+[tool.setuptools.packages.find]
+where = ["./python"]  # list of folders that contain the packages (["."] by default)
+include = ["ccxt"]  # package names should match these glob patterns (["*"] by default)
+exclude = []  # exclude packages matching these glob patterns (empty by default)
+namespaces = false  # to disable scanning PEP 420 namespaces (true by default)
